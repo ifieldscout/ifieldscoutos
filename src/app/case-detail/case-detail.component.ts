@@ -11,6 +11,13 @@ import { Case } from '../models/case';
   <div class="container-fluid">
     <div class="bkgrndImage">
         <img class="img" alt="" src="../assets/iFieldLogo.png" width="125" height="35" />
+        <button class="btn btn-secondary dropdown-toggle" type="button"
+						data-toggle="dropdown">
+						<img src="" class="img-circle"
+							style="width: 30px; height: 30px;">&nbsp; <b>User Name</b>
+						<span class="caret"></span>
+
+				</button>
     </div>
     <nav class="navbar navbar-dark bg-dark">
         <div class="navbar-expand mr-auto">
